@@ -1,14 +1,14 @@
 class Moncc < Formula
-  desc "Moncc peer-to-peer container orchestrator"
+  desc "Moncc the container orchestrator 2.0"
   homepage "https://moncc.io"
-  url "https://releases.moncc.io/stable/macos/moncc-darwin-v1.9.0-93.tar.gz"
-  sha256 "a4fadc5df628ba0e1df80799f5f5dd92b759bcebbe053c2e44e3e6d7d4ba0565"
-  version "1.9.0"
+  url "https://releases.moncc.io/stable/macos/moncc-darwin-v2.0.1.tar.gz"
+  sha256 "553891479ae710db8eeb409a385179f91cd8bea50f650f5d2482ff4f7f6e9412"
+  version "2.0.1"
 
   bottle :unneeded
 
   def install
-    bin.install "moncc-mac" => "moncc"
-    bin.install "monccd-mac" => "monccd"
+    bin.install "mncc" => "mncc"
+    bin.install "monccd" => "monccd"
   end
 end
