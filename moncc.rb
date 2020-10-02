@@ -1,9 +1,9 @@
 class Moncc < Formula
   desc "Moncc the container orchestrator 2.0"
   homepage "https://moncc.io"
-  url "https://releases.moncc.io/stable/macos/moncc-darwin-v2.0.1.tar.gz"
-  sha256 "553891479ae710db8eeb409a385179f91cd8bea50f650f5d2482ff4f7f6e9412"
-  version "2.0.1"
+  url "https://releases.moncc.io/stable/macos/moncc-darwin-v2.1.0.tar.gz"
+  sha256 "e9f2565fb9fd7326858fa2f64b3639534ca0018121da770deeb7179961ac4ee4"
+  version "2.1.0"
 
   bottle :unneeded
 
