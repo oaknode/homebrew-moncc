@@ -1,9 +1,9 @@
 class Moncc < Formula
   desc "Moncc composes, deploys and manages your entire stack, on your own infrastructure, with nearly zero DevOps overhead."
   homepage "https://moncc.io"
-  url "https://releases.moncc.io/stable/macos/moncc-darwin-v2.3.5.tar.gz"
-  sha256 "e3d9eb9e136391b8694dc5b42e129730723fa08116bb1da306c0d4cbada4c88a"
-  version "2.3.5"
+  url "https://releases.moncc.io/stable/macos/moncc-darwin-v2.3.6.tar.gz"
+  sha256 "978cf3ffef734d631dfff776b8637a7f9786a4f297590ef2e15096abc38773d6"
+  version "2.3.6"
 
   bottle :unneeded
 
